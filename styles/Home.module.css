@@ -10,6 +10,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  justify-content: flex-start;
+  padding-top: 1rem;
 }
 
 .footer {
@@ -41,8 +43,9 @@
 
 .title {
   margin: 0;
+  margin-bottom: 1rem;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .title,
@@ -51,9 +54,11 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 1rem 0;
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+ font-weight: bold;
+
 }
 
 .code {
@@ -127,3 +132,41 @@
     filter: invert(1);
   }
 }
+
+.navbar {
+text-align: center;
+}
+.navbar ul{
+display: flex;
+
+}
+.navbar ul li{
+list-style: none;
+margin: 1rem;
+padding: 0.5rem;
+font-size: 1rem;
+font-weight: bold;
+}
+.blog{
+  text-align: center;
+}
+.blogItem{
+  text-align: center;
+    padding: 0 10rem;
+}
+.blogItem h6{
+  font-size: 12px;
+  font-weight: 400 !important;
+}
+.blogItem h3{
+cursor: pointer;
+}
+.blogContain{
+  text-align: center;
+  padding: 0 10rem;
+}
+.blogtext {
+  font-size: 14px !important;
+}
+
+
